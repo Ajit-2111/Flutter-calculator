@@ -1,16 +1,41 @@
-# calculator
+# Calculator App
 
-A new Flutter project.
+A basic Flutter calculator application that performs simple arithmetic operations. The app includes a responsive UI and supports operations like addition, subtraction, multiplication, and division.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Basic Operations**: Supports addition, subtraction, multiplication, and division.
+- **Responsive UI**: A clean and responsive user interface for easy interaction.
+- **Clear and Delete**: Ability to clear the entire input or delete the last digit.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   git clone https://github.com/Ajit-2111/Flutter-calculator.git
+   cd Flutter-calculator
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app:
+
+   ```bash
+   flutter run
+   ```
+
+## Dependencies
+
+- `math_expressions`: A Flutter package used for parsing and evaluating mathematical expressions.
+
+## Usage
+
+1. Enter the numbers and select an operator.
+2. Press `=` to get the result.
+3. Use `AC` to clear the input or `<` to delete the last digit.
+
